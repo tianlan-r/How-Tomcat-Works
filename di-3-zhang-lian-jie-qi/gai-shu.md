@@ -8,3 +8,6 @@
 
 **注意**    不同于以前的应用程序，在本章中的应用程序中，连接器和容器是分开的。
 
+本章的应用程序在ex03.pyrmont包及其子包中，connector在ex03.pyrmont.connector和ex03.pyrmont.connector.http包中。从本章开始，每个应用程序都会有一个启动类来启动，至于停止，目前只能通过控制台（Windows）或者kill进程（Linux）。
+
+在对应用程序进行说明之前，先来看看org.apache.catalina.util包中StringManager类。在这个应用程序和Catalina中，它会对不同模块的错误信息进行国际化处理。
