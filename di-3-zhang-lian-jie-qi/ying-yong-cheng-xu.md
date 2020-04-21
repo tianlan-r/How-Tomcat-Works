@@ -14,7 +14,7 @@ core模块有两个类：ServletProcessor和StaticResourceProcessor。
 
 图3.1展示了这个应用程序的UML类图。为了使类图更可读，省略了HttpRequest和HttpResponse相关的类。在我们讨论Request和Response的时候，你会看到他们各自的UML类图。
 
-![3.1](C:\Users\wl\Desktop\3.1.png)
+![3.1](../images/3.1.png)
 
 ​																				图  3.1
 
