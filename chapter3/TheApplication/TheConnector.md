@@ -121,7 +121,7 @@ socket.close();
 HttpProcessor使用org.apache.catalina.util.StringManager来发送错误信息
 
 ```java
-protected StringManager sm = 					        StringManager.getManager("ex03.pyrmont.connector.http");
+protected StringManager sm = StringManager.getManager("ex03.pyrmont.connector.http");
 ```
 
 parseRequst和parseHeaders方法被用来填充HttpRequest，我们会在下一节中讨论他们。
