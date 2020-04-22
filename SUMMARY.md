@@ -5,7 +5,7 @@
   * [概述](chapter3/Overview.md)
   * [The StringManager Class](chapter3/TheStringManagerClass.md)
   * [应用程序](chapter3/TheApplication/README.md)
-    * [启动应用程序](chapter3/TheApplication/StartTheApplication.md)
+    * [启动应用程序](chapter3/TheApplication/StartingTheApplication.md)
     * [连接器](chapter3/TheApplication/TheConnector.md)
     * [创建HttpRequest对象](chapter3/TheApplication/CreatingAnHttpRequestObject/README.md)
       * [读取socket输入流](chapter3/TheApplication/CreatingAnHttpRequestObject/ReadingTheSocket'sInputStream.md)
