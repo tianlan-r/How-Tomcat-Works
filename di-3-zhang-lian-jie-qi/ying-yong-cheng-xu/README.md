@@ -1,7 +1,3 @@
-# 应用程序
-
-# 应用程序
-
 从本章开始，每章的应用程序都会按照模块进行划分。本章的应用程序包含三个模块：connector, startup和core。
 
 startup模块只有一个类，Bootstrap，它负责启动应用程序。connector模块的类可以分为五类：
