@@ -14,8 +14,6 @@ core模块有两个类：ServletProcessor和StaticResourceProcessor。
 
 ![3.1](../../images/3.1.png)
 
-​																				图  3.1
-
 和图2.1相比，第2章中的HttpServer类拆分成了两个类：HttpConnector和HttpProcessor，HttpRequest替代了Request，HttpResponse替代了Response。本章的应用程序也使用了更多的类。
 
 第2章中的HttpServer负责等待HTTP请求并创建请求和响应对象，在本章中，等待HTTP请求的任务交给了HttpConnector，创建请求和响应对象的任务交给了HttpProcessor。
