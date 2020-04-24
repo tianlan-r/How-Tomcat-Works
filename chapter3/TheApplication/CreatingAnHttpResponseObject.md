@@ -14,7 +14,7 @@ public PrintWriter getWriter() throws IOException {
     // but print() will not.
     writer = new PrintWriter(output, true);
     return writer;
-  }
+}
 ```
 
 传入一个OutputStream实例来构造PrintWriter对象，你传给print()或者println()的数据都会被转化为字节流，然后通过OutputStream发送。
