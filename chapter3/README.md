@@ -1,0 +1,12 @@
+正如序言所述，Catalina包含两个主要模块：connector和container。本章你将写一个能创建更好的请求和响应对象的connector来改善第2章中的应用程序。一个遵守Servlet 2.3和Servlet 2.4标准的连接器必须能够创建javax.servlet.http.HttpServletRequest和javax.servlet.http.HttpServletResponse的实例，并将它们作为参数调用servlet的service方法。在第2章中，servlet容器只能运行实现了javax.servlet.Servlet接口并以javax.servlet.ServletRequest和javax.servlet.ServletResponse作为service方法参数的servlet。因为连接器不知道servlet的具体类型，它必须提供HttpServletRequest和HttpServletRequest实例。
+
+在本章的应用程序中，连接器会解析HTTP请求头，使得servlet能够获取到请求头、cookie和请求参数等信息。你也将完善第2章中Response的getWriter方法，以使其工作得更好些。多亏了这些改进，你可以从PrimitiveServlet获得一个完整的响应，能够运行更加复杂的ModernServlet。
+
+本章中建立的连接器实际上是Tomcat 4的默认连接器的简化版，第4章会更详细的讨论。Tomcat 4的默认连接器虽然已经过时了，但仍然是一个好的教材。在本章剩下的部分里，connector特指在本章中构建的模块。
+
+**注意** 不同于以前的应用程序，在本章中的应用程序中，连接器和容器是分开的。
+
+本章的应用程序在ex03.pyrmont包及其子包中，connector在ex03.pyrmont.connector和ex03.pyrmont.connector.http包中。从本章开始，每个应用程序都会有一个启动类来启动，至于停止，目前只能通过控制台（Windows）或者kill进程（Linux）。
+
+在对应用程序进行说明之前，先来看看org.apache.catalina.util包中StringManager类。它会对这个应用程序和Catalina中不同模块的错误信息进行国际化处理。
+
