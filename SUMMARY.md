@@ -2,7 +2,6 @@
 
 * [前言](README.md)
 * [第3章 连接器](chapter3/README.md)
-  * [概述](chapter3/Overview.md)
   * [The StringManager Class](chapter3/TheStringManagerClass.md)
   * [应用程序](chapter3/TheApplication/README.md)
     * [启动应用程序](chapter3/TheApplication/StartingTheApplication.md)
