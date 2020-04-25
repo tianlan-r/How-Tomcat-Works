@@ -15,6 +15,6 @@
       * [获取参数](chapter3/TheApplication/CreatingAnHttpRequestObject/ObtainingParameters.md)
     * [创建HttpResponse对象](chapter3/TheApplication/CreatingAnHttpResponseObject.md)
     * [静态资源处理器和servlet处理器](chapter3/TheApplication/StaticResourceProcessorAndServletProcessor.md)
-    * [运行应用程序](chapter3/TheApplicatio/RunningTheApplication.md)
+    * [运行应用程序](chapter3/TheApplication/RunningTheApplication.md)
   * [小结](chapter3/Summary.md)
 
