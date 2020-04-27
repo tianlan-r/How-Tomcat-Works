@@ -23,6 +23,7 @@
 
   * [HTTP 1.1 新特性](chapter4/HTTP1.1NewFeatures.md)
   * [连接器接口](chapter4/TheConnectorInterface.md)
+  * [The HttpConnector Class](chapter4/TheHttpConnectorClass.md)
 
     
 
