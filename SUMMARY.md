@@ -1,7 +1,9 @@
 # Table of contents
 
 * [前言](README.md)
+
 * [第3章 连接器](chapter3/README.md)
+
   * [The StringManager Class](chapter3/TheStringManagerClass.md)
   * [应用程序](chapter3/TheApplication/README.md)
     * [启动应用程序](chapter3/TheApplication/StartingTheApplication.md)
@@ -16,5 +18,10 @@
     * [静态资源处理器和servlet处理器](chapter3/TheApplication/StaticResourceProcessorAndServletProcessor.md)
     * [运行应用程序](chapter3/TheApplication/RunningTheApplication.md)
   * [小结](chapter3/Summary.md)
+
 * [第4章 Tomcat默认连接器](chapter4/README.md)
+
+  * [HTTP 1.1 新特性](chapter4/HTTP1.1NewFeatures.md)
+
+    
 
