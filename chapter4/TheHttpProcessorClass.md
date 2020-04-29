@@ -118,6 +118,6 @@ this.socket = socket;
 
 然后，连接器线程将变量available设置为true并调用notifyAll()。它会唤醒处理器线程，此时available已经为true了，处理器线程跳出while循环，获取当前HttpProcessor对象的socket值，设置available为false，调用notifyAll并返回获取到的socket。
 
-为什么await方法要使用一个局部变量（socket）而不直接返回当前对象的socket呢？（*原文是这样写的：这是为了在当前socket处理完成之前就能够接收下一个socket，感觉不太对*）
+为什么await方法要使用一个局部变量（socket）而不直接返回当前对象的socket呢？这是为了在当前socket处理完成之前就能够接收下一个socket。比如一个极端情况，socket1已经设置到HttpProcessor的变量上了，处理器线程刚执行完available = false，socket2到了，连接器线程将对象的socket变量设置为socket2，如果处理器线程返回的是成员变量socket（即return this.socket）,那么它返回的将是socket2，socket1就丢失了。如果返回的是局部变量就还是返回socket1。
 
 为什么await方法要调用notifyAll呢？是为了防止当avaliable变量还是true的时候，又有socket到来（比如处理器线程还没执行到available = false），在这种情况下，连接器线程就会阻塞在while循环里，所以就需要处理器线程在将available设为false之后调用notifyAll来唤醒连接器线程。
