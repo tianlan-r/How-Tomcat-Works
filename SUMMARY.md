@@ -31,5 +31,7 @@
   
   * [Request Objects](chapter4/RequestObjects.md)
   
+  * [Response Objects](chapter4/ResponseObjects.md)
+  
     
 
