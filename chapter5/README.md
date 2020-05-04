@@ -1,0 +1,3 @@
+# 第5章 容器
+
+容器是一个用来处理对servlet的请求并填充响应对象的模块。org.apache.catalina.Container接口表示一个容器，有4种类型：Engine、Host、Context和Wrapper。本章涵盖了Context和Wrapper，Engine和Host会留到13章讲解。本章首先会介绍Container接口，讨论容器里面的管道机制。然后介绍Wrapper和Context接口。本章末尾的两个应用程序展示了一个简单的wrapper和一个简单的context。
