@@ -39,3 +39,6 @@
 * [第5章 容器](chapter5/README.md)
 
   * [Container接口](chapter5/TheContainerInterface.md)
+  * [管道任务](chapter5/PipeliningTasks/README.md)
+    * [The Pipeline Interface](chapter5/PipeliningTasks/ThePipelineInterface.md)
+
