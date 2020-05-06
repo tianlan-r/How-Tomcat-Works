@@ -1,0 +1,12 @@
+# The Wrapper Interface
+
+这个接口表示一个wrapper，一个wrapper表示一个独立servlet定义的容器。Wrapper接口继承了Container接口，还添加了一些其他方法。Wrapper的实现类负责管理servlet的生命周期，即负责调用servlet的init、service和destroy方法。既然wrapper是最低层级的container，所以它就不能添加子container，如果调用它的addChild方法会抛出IllegalArgumantException异常。
+
+接口中比较重要的方法有allocate和load。allocate会分配一个完成初始化的servlet实例，还要考虑这个servlet是否实现了javax.servlet.SingleThreadModel接口，我们会在第11章讨论。load方法负责加载和初始化一个servlet实例。两个方法的方法签名如下：
+
+```java
+public Servlet allocate() throws ServletException;
+public void load() throws ServletException;
+```
+
+当我们在第11章讨论StandarWrapper类时会介绍该接口的其他方法。
