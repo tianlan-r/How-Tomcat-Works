@@ -42,4 +42,5 @@
   * [管道任务](chapter5/PipeliningTasks/README.md)
     * [The Pipeline Interface](chapter5/PipeliningTasks/ThePipelineInterface.md)
     * [The Valve Interface](chapter5/PipeliningTasks/TheValveInterface.md)
+    * [The ValveContext Interface](chapter5/PipeliningTasks/TheValveContextInterface.md)
 
