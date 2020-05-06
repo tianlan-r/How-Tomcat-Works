@@ -45,4 +45,5 @@
     * [The ValveContext Interface](chapter5/PipeliningTasks/TheValveContextInterface.md)
     * [The Contained Interface](chapter5/PipeliningTasks/TheContainedInterface.md)
   * [The Wrapper Interface](chapter5/TheWrapperInterface.md)
+  * [The Context Interface](chapter5/TheContextInterface.md)
 

@@ -1,0 +1,5 @@
+# The Context Interface
+
+一个context表示一个web应用。一个context往往会有一个或者多个wrapper作为它的子container。
+
+重要的方法包括addWrapper、createWrapper等。在12章会详细讨论这个接口。
