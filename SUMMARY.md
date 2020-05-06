@@ -41,4 +41,5 @@
   * [Container接口](chapter5/TheContainerInterface.md)
   * [管道任务](chapter5/PipeliningTasks/README.md)
     * [The Pipeline Interface](chapter5/PipeliningTasks/ThePipelineInterface.md)
+    * [The Valve Interface](chapter5/PipeliningTasks/TheValveInterface.md)
 
