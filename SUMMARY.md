@@ -48,3 +48,4 @@
   * [小结](chapter5/Summary.md)
 * [第6章 生命周期](chapter6/README.md)
   * [The Lifecycle Interface](chapter6/TheLifecycleInterface.md)
+  * [The LifecycleEvent Class](chapter6/TheLifecycleEventClass.md)
