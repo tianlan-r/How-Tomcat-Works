@@ -47,3 +47,4 @@
   * [Context应用程序](chapter5/TheContextApplication.md)
   * [小结](chapter5/Summary.md)
 * [第6章 生命周期](chapter6/README.md)
+  * [The Lifecycle Interface](chapter6/TheLifecycleInterface.md)
