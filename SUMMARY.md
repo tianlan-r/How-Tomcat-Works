@@ -2,8 +2,7 @@
 
 * [前言](README.md)
 * [第3章 连接器](chapter3/README.md)
-
-  * [The StringManager Class](chapter3/TheStringManagerClass.md)
+* [The StringManager Class](chapter3/TheStringManagerClass.md)
   * [应用程序](chapter3/TheApplication/README.md)
     * [启动应用程序](chapter3/TheApplication/StartingTheApplication.md)
     * [连接器](chapter3/TheApplication/TheConnector.md)
@@ -18,12 +17,11 @@
     * [运行应用程序](chapter3/TheApplication/RunningTheApplication.md)
   * [小结](chapter3/Summary.md)
 * [第4章 Tomcat默认连接器](chapter4/README.md)
-
-  * [HTTP 1.1 新特性](chapter4/HTTP1.1NewFeatures.md)
+* [HTTP 1.1 新特性](chapter4/HTTP1.1NewFeatures.md)
   
   * [连接器接口](chapter4/TheConnectorInterface.md)
-
-  * [The HttpConnector Class](chapter4/TheHttpConnectorClass.md)
+  
+* [The HttpConnector Class](chapter4/TheHttpConnectorClass.md)
   
   * [The HttpProcessor Class](chapter4/TheHttpProcessorClass.md)
   
@@ -37,8 +35,7 @@
   
   * [小结](chapter4/Summary.md)
 * [第5章 容器](chapter5/README.md)
-
-  * [Container接口](chapter5/TheContainerInterface.md)
+* [Container接口](chapter5/TheContainerInterface.md)
   * [管道任务](chapter5/PipeliningTasks/README.md)
     * [The Pipeline Interface](chapter5/PipeliningTasks/ThePipelineInterface.md)
     * [The Valve Interface](chapter5/PipeliningTasks/TheValveInterface.md)
@@ -49,3 +46,4 @@
   * [Wrapper应用程序](chapter5/TheWrapperApplication.md)
   * [Context应用程序](chapter5/TheContextApplication.md)
   * [小结](chapter5/Summary.md)
+* [第6章 生命周期](chapter6/README.md)

@@ -1,0 +1,7 @@
+# 第6章 生命周期
+
+Catalina包含了非常多的组件，当Catalina启动时，这些组件也需要启动起来，当Catalina关闭时，这些组件也必须要有机会完成清理工作。例如，当container停止时，必须调用所有已加载的servlet的destory方法，session管理器必须把session对象保存到辅助存储器里面。通过实现org.apache.catalina.Lifecycle接口，就可以统一这些组件的启动和停止。
+
+一个实现了Lifecycle接口的组件可以触发一个或多个事件：BEFORE_START_EVENT、START_EVENT、AFTER_START_EVENT、BEFORE_STOP_EVENT、STOP_EVENT和AFTER_STOP_EVENT。前三个事件是在组件启动的时候触发，后三个事件是在组件停止的时候触发。org.apache.catalina.LifecycleEvent类表示一个事件。当然，如果一个组件能够触发事件，就可以编写事件监听器来处理这些事件。org.apache.catalina.LifecycleListener接口表示监听器。
+
+本章会讨论这三种类型：Lifecycle、LifecycleEvent和LifecycleListener。另外，还会解释一个通用的类：LifecycleSupport，它提供了一种简单的方式来触发某个组件的生命周期事件和处理生命周期的监听器。在本章中，会使用一些实现了Lifecycle接口的类来构建一个项目，这个项目是基于第5章中的应用程序的。
