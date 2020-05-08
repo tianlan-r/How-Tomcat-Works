@@ -1,0 +1,3 @@
+# 小结
+
+container是继connector之后的第二个主要模块。container用到了许多其他模块，比如Loader、Logger、Manager等等。有四种类型的container：Engine、Host、Context和Wrapper。Catalina部署并不要求四种类型全都有。两个示例程序就展示了包含一个单wrapper的应用和包含一个context（包含一些wrapper的子container）的应用。
