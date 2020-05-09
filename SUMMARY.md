@@ -50,3 +50,4 @@
   * [The Lifecycle Interface](chapter6/TheLifecycleInterface.md)
   * [The LifecycleEvent Class](chapter6/TheLifecycleEventClass.md)
   * [The LifecycleListener Interface](chapter6/TheLifecycleListenerInterface.md)
+  * [The LifecycleSupport Class](chapter6/TheLifecycleSupportClass.md)
