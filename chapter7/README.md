@@ -1,0 +1,6 @@
+# 第7章 日志记录器
+
+logger是用来记录信息的组件。在Catalina中，logger与container关联相较于与其他组件关联要更简单一些。org.apache.catalina.logger包中提供了各种各样的logger。本章的应用程序在ex07.pyrmont包中，和第6章相比，只有两个类进行了改变，SimpleContext和Bootstrap。
+
+本章有三个小节，第一节介绍org.apache.catalina.Logger接口，所有的logger都必须实现此接口。第二节介绍了Tomcat中的日志记录器，第三节介绍如何使用Tomcat的日志记录器。
+
