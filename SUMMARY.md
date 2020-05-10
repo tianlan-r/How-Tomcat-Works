@@ -55,3 +55,4 @@
   * [小结](chapter6/Summary.md)
 * [第7章 日志记录器](chapter7/README.md)
   * [The Logger Interface](chapter7/TheLoggerInterface.md)
+  * [Tomcat里的日志记录器](chapter7/TomcatsLoggers.md)
