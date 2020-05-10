@@ -51,3 +51,5 @@
   * [The LifecycleEvent Class](chapter6/TheLifecycleEventClass.md)
   * [The LifecycleListener Interface](chapter6/TheLifecycleListenerInterface.md)
   * [The LifecycleSupport Class](chapter6/TheLifecycleSupportClass.md)
+  * [应用程序](chapter6/TheApplication.md)
+  * [小结](chapter6/Summary.md)
