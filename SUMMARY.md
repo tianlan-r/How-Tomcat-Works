@@ -53,3 +53,4 @@
   * [The LifecycleSupport Class](chapter6/TheLifecycleSupportClass.md)
   * [应用程序](chapter6/TheApplication.md)
   * [小结](chapter6/Summary.md)
+* [第7章 日志记录器](chapter7/README.md)
