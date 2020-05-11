@@ -59,4 +59,5 @@
   * [应用程序](chapter7/TheApplication.md)
   * [小结](chapter7/Summary.md)
 * [第8章 加载器](chapter8/README.md)
+  * [Java Class Loader](chapter8/JavaClassLoader.md)
 
