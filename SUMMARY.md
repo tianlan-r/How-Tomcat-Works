@@ -62,4 +62,5 @@
   * [Java Class Loader](chapter8/JavaClassLoader.md)
   * [The Loader Interface](chapter8/TheLoaderInterface.md)
   * [The Reloader Interface](chapter8/TheReloaderInterface.md)
+  * [The WebappLoader Class](chapter8/TheWebappLoaderClass.md)
 
