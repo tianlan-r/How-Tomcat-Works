@@ -66,21 +66,14 @@ public class ResourceEntry {
 
 当加载一个类时，WebappClassLoader会遵循一些规则：
 
-所有已经加载过的类都会被缓存，所以首先应该检查本地缓存。
-
-若本地缓存没有，则检查上一级缓存，即调用java.lang.ClassLoader的findLoadedClass方法。
-
-若缓存中还是没有，则使用系统的类加载器，防止web应用程序的类覆盖J2EE的类。
-
-如果使用了SecurityManager，则检查这个类是否允许被载入，如果不允许，则抛出ClassNotFoundException异常。
-
-如果delegate变量为true，或者要加载的类属于packageTriggers中的包，则使用父类加载器来加载。如果父加载器是null，则使用system类加载器。
-
-从当前仓库加载类。
-
-如果当前仓库里面没有找到这个类且delegate为false，则使用父加载器，如果父加载器为null，则使用system类加载器。
-
-如果还是没有找到这个类，就抛出ClassNotFoundException异常。
+- 所有已经加载过的类都会被缓存，所以首先应该检查本地缓存。
+- 若本地缓存没有，则检查上一级缓存，即调用java.lang.ClassLoader的findLoadedClass方法。
+- 若缓存中还是没有，则使用系统的类加载器，防止web应用程序的类覆盖J2EE的类。
+- 如果使用了SecurityManager，则检查这个类是否允许被载入，如果不允许，则抛出ClassNotFoundException异常。
+- 如果delegate变量为true，或者要加载的类属于packageTriggers中的包，则使用父类加载器来加载。如果父加载器是null，则使用system类加载器。
+- 从当前仓库加载类。
+- 如果当前仓库里面没有找到这个类且delegate为false，则使用父加载器，如果父加载器为null，则使用system类加载器。
+- 如果还是没有找到这个类，就抛出ClassNotFoundException异常。
 
 
 
