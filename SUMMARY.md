@@ -63,4 +63,5 @@
   * [The Loader Interface](chapter8/TheLoaderInterface.md)
   * [The Reloader Interface](chapter8/TheReloaderInterface.md)
   * [The WebappLoader Class](chapter8/TheWebappLoaderClass.md)
+  * [The WebappClassLoader Class](chapter8/TheWebappClassLoaderClass.md)
 
