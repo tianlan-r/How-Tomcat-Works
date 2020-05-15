@@ -67,4 +67,5 @@
   * [应用程序](chapter8/TheApplication.md)
   * [小结](chapter8/Summary.md)
 * [第9章 Session管理](chapter9/README.md)
+  * [Sessions](chapter9/Sessions.md)
 
